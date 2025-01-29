@@ -1,5 +1,5 @@
 const title = document.querySelector('.title')
-const text = 'Quieres ser mi San valentín y pasar tiempo juntos'.split('')
+const text = 'Quieres ser mi San valentín'.split('')
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}<span/>`
