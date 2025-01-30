@@ -223,7 +223,7 @@ body {
   background-color: #fff;
 }
 
-.flower__white-circle::after {
+.flower__blue-circle::after {
   content: "";
   position: absolute;
   left: 50%;
