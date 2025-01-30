@@ -213,7 +213,7 @@ body {
   -o-transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
 }
 
-.flower__white-circle {
+.flower__blue-circle {
   position: absolute;
   left: -3.5vmin;
   top: -3vmin;
