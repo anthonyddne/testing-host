@@ -3,7 +3,9 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('I LOVE U').split('')
+    const titles = ('Agradezco cada instante a tu lado, tu sonrisa, tus abrazos y tu amor. Contigo, todo es más bonito. Gracias por ser tú y por hacerme sentir afortunado/a.
+
+Te amo con todo mi corazón. Siempre estaré aquí para ti, porque eres mi hogar y mi destino.').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
