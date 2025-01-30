@@ -3,9 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Agradezco cada instante a tu lado, tu sonrisa, tus abrazos y tu amor. Contigo, todo es más bonito. Gracias por ser tú y por hacerme sentir afortunado/a.
-
-Te amo con todo mi corazón').split('')
+    const titles = ('Agradezco cada instante a tu lado, tu sonrisa, tus abrazos y tu amor. Contigo, todo es más bonito. Gracias por ser tú y por hacerme sentir afortunado, te amo con todo mi ser').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
