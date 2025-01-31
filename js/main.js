@@ -11,12 +11,12 @@ onload = () => {
       if (index < titles.length) {
         titleElement.innerHTML += titles[index];
         index++;
-        setTimeout(appendTitle, 50); // 75ms delay
+        setTimeout(appendTitle, 85); // 85ms delay
       }
     }
 
     appendTitle();
 
     clearTimeout(c);
-  }, 50);
+  }, 85);
 };
